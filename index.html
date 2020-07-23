@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Example Index</title>
+
+    <style>
+        ul {
+            list-style-type: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        li {
+            display: inline-block;
+            float: top;
+            left: 0;
+            padding: 5px;
+            text-align: left;
+        }
+        .main{
+            border: 1px solid black;
+            padding: 2px;
+            margin: 2px;
+            height: auto;
+        }
+        .nav {
+            width: 100vh;
+            background-color: grey;
+        }
+        .display {
+            height: auto;
+            width: 99%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#example1">E1</a>
+                </li>
+                <li>
+                    <a href="#example2">E2</a>
+                </li>
+                <li>
+                    <a href="#example3">E3</a>
+                </li>
+                <li>
+                    <a href="#example4">E4</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header">
+            <h1>Example Index</h1>
+        </div>
+        <div class="main">
+            <div id="example1">
+                <iframe src="example-one/home-page.html" class="display" title="Example Window">
+                </iframe>
+            </div>
+            <div id="example2">
+                <iframe src="example-two/home-page.html" class="display" title="Example Window">
+                </iframe>
+            </div>
+            <div id="example3">
+                <iframe src="example-three/home-page.html" class="display" title="Example Window">
+                </iframe>
+            </div>
+            <div id="example4">
+                <iframe src="example-four/home-page.html" class="display" title="Example Window">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
